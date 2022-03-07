@@ -1,0 +1,272 @@
+:root {
+    --color1: rgb(184, 57, 74);
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+h1 {
+    font-size:2rem;
+    line-height: 1.3em;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: var(--color1);
+    color: white;
+    padding: 1rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0; 
+    right: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem; 
+    transition: all 0.1s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: #4a4a4a;
+    font-weight: bolder;
+    transition: all 0.1s linear;
+}
+
+
+.main {
+padding-top: 9rem;
+text-align: center; 
+
+}
+
+
+.main-formulario {
+    padding-top: 9rem;
+    text-align: center;
+}
+
+.login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: rgb(184, 57, 74);  
+    border-radius: 15px ;  
+}  
+
+h2{
+    text-align: center;  
+color: #333333;  
+padding: 20px;  
+}
+
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+
+}  
+
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: white;  
+}  
+
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(background-footer-amarillo.svg);
+    background-size: cover;
+    background-color: transparent;
+    mask-image: url(background-footer-amarillo.svg);
+    mask-image: url(background-footer-amarillo.svg); 
+    mask-size: cover;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.box__footer .logo img{
+    width: 100%;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #333333;
+    font-weight: 600;
+    text-align: center;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    width: 100%;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+.box__footer p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#login label, #login span, #login span a {
+    color: white;
+}
+
+.tabla {
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.tabla table {
+    width: 100%;
+}
+
+.tabla table td {
+    border: 1px solid rgb(88, 53, 53);
+    text-align: center;
+    padding: 5px;
+}
+
+.avatar {
+    display: inline-block;
+    width: 20%;
+}
+
+.info {
+    display: inline-block;
+    width: 35%;
+    padding: 0px 19px;
+}
+
+.info table th , .info2 th{
+    background-color: #b8394a;
+    color: white;
+    padding: 5px;
+}
+
+.info table td:nth-child(1), .info2 td:nth-child(1){
+    background-color: #e6a53e;
+    color: white;
+    padding: 5px;
+}
+
+.info table td:nth-child(2), .info2 td{
+    background-color: #ddbf90;
+    color: white;
+    padding: 5px;
+}
